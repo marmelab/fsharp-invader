@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/Game.fs" />
+    <Compile Include="src/Main.fs" />
+    <PackageReference Include="FSharp.Core">
+        <Version>4.3.4</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
+</Project>

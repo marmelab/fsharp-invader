@@ -1,0 +1,6 @@
+dist/*
+obj
+bin
+paket.lock
+packages
+paket-files
